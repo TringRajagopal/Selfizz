@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Selfizz/ViewControllers/RegisterViewController.swift"
-            timestampString = "542203955.79089"
+            timestampString = "542211050.30942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Selfizz/ViewControllers/RegisterViewController.swift"
-            timestampString = "542203955.7909859"
+            timestampString = "542211050.30989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "validateUserAndProceedWithRegistration()"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "displayFirebaseAuthViewController(authUI_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Selfizz/ViewControllers/RegisterViewController.swift"
-            timestampString = "542203955.791037"
+            timestampString = "542211050.310238"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "validateUserAndProceedWithRegistration()"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "RegisterViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Selfizz/ViewControllers/RegisterViewController.swift"
+            timestampString = "542211050.310577"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "saveToFireBaseDBWith(userDetails:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
