@@ -20,9 +20,9 @@ class Utility: NSObject {
     }
     
     //Alert
-    func getAlertInstance(alertDetails: (title: String, desc: String)) -> UIAlertController {
+    func displayAlert(alertDetails: (title: String, desc: String), viewController: UIViewController) {
         let alert = UIAlertController(title: alertDetails.title, message: alertDetails.desc, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        return alert
+        viewController.present(alert, animated: true, completion: nil)
     }
 }
