@@ -1,0 +1,6 @@
+framework module Pods_Selfizz {
+  umbrella header "Pods-Selfizz-umbrella.h"
+
+  export *
+  module * { export * }
+}

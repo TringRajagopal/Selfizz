@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A45A7793E26C5102965374E /* Pods_Selfizz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299AABF258C08D9164A8048D /* Pods_Selfizz.framework */; };
+		297BA42E20513EC200D5B964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297BA42D20513C3300D5B964 /* Main.storyboard */; };
+		297BA430205143BC00D5B964 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 297BA42F2051427900D5B964 /* GoogleService-Info.plist */; };
+		297BA432205150F400D5B964 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297BA431205150F400D5B964 /* Constants.swift */; };
+		297BA434205152AC00D5B964 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297BA433205152AC00D5B964 /* Utility.swift */; };
 		299CBDC7204FFF7B00975675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CBDC6204FFF7B00975675 /* AppDelegate.swift */; };
-		299CBDCC204FFF7B00975675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CBDCA204FFF7B00975675 /* Main.storyboard */; };
+		299CBDCC204FFF7B00975675 /* Root.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CBDCA204FFF7B00975675 /* Root.storyboard */; };
 		299CBDCE204FFF7B00975675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299CBDCD204FFF7B00975675 /* Assets.xcassets */; };
 		299CBDD1204FFF7B00975675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CBDCF204FFF7B00975675 /* LaunchScreen.storyboard */; };
 		299CBDDE205000B400975675 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299CBDDD205000B400975675 /* SigninViewController.swift */; };
@@ -16,14 +21,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21BC9EA05A414D301228B31A /* Pods-Selfizz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfizz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz.release.xcconfig"; sourceTree = "<group>"; };
+		297BA42D20513C3300D5B964 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Main.storyboard; path = /UrLoop/Selfizz/Selfizz/Selfizz/Main.storyboard; sourceTree = "<absolute>"; };
+		297BA42F2051427900D5B964 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		297BA431205150F400D5B964 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		297BA433205152AC00D5B964 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		299AABF258C08D9164A8048D /* Pods_Selfizz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selfizz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		299CBDC3204FFF7B00975675 /* Selfizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		299CBDC6204FFF7B00975675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		299CBDCB204FFF7B00975675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		299CBDCB204FFF7B00975675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Root.storyboard; sourceTree = "<group>"; };
 		299CBDCD204FFF7B00975675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299CBDD0204FFF7B00975675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		299CBDD2204FFF7B00975675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		299CBDDD205000B400975675 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		29F7211D2050142800816248 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		316EDF283F0F38BFF32CA08F /* Pods-Selfizz.jenkins.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfizz.jenkins.xcconfig"; path = "Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz.jenkins.xcconfig"; sourceTree = "<group>"; };
+		4520F0EE1F38FB717550D283 /* Pods-Selfizz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfizz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A45A7793E26C5102965374E /* Pods_Selfizz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +56,8 @@
 			children = (
 				299CBDC5204FFF7B00975675 /* Selfizz */,
 				299CBDC4204FFF7B00975675 /* Products */,
+				F7561E098343D6116027ED1B /* Pods */,
+				EA1B4CA7C4545289B4DA6D9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,15 +73,18 @@
 			isa = PBXGroup;
 			children = (
 				299CBDC6204FFF7B00975675 /* AppDelegate.swift */,
+				297BA431205150F400D5B964 /* Constants.swift */,
 				299CBDD8204FFFBB00975675 /* ViewControllers */,
 				299CBDDB204FFFFF00975675 /* Controllers */,
 				299CBDD9204FFFC700975675 /* CollectionViewCells */,
 				299CBDDA204FFFDD00975675 /* CollectionViewDataSource */,
 				299CBDDC2050000700975675 /* Utilities */,
-				299CBDCA204FFF7B00975675 /* Main.storyboard */,
+				299CBDCA204FFF7B00975675 /* Root.storyboard */,
+				297BA42D20513C3300D5B964 /* Main.storyboard */,
 				299CBDCD204FFF7B00975675 /* Assets.xcassets */,
 				299CBDCF204FFF7B00975675 /* LaunchScreen.storyboard */,
 				299CBDD2204FFF7B00975675 /* Info.plist */,
+				297BA42F2051427900D5B964 /* GoogleService-Info.plist */,
 			);
 			path = Selfizz;
 			sourceTree = "<group>";
@@ -103,8 +122,27 @@
 		299CBDDC2050000700975675 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				297BA433205152AC00D5B964 /* Utility.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EA1B4CA7C4545289B4DA6D9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				299AABF258C08D9164A8048D /* Pods_Selfizz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7561E098343D6116027ED1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4520F0EE1F38FB717550D283 /* Pods-Selfizz.debug.xcconfig */,
+				316EDF283F0F38BFF32CA08F /* Pods-Selfizz.jenkins.xcconfig */,
+				21BC9EA05A414D301228B31A /* Pods-Selfizz.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 299CBDD5204FFF7B00975675 /* Build configuration list for PBXNativeTarget "Selfizz" */;
 			buildPhases = (
+				A79CCF1719928BBAB8F06D7E /* [CP] Check Pods Manifest.lock */,
 				299CBDBF204FFF7B00975675 /* Sources */,
 				299CBDC0204FFF7B00975675 /* Frameworks */,
 				299CBDC1204FFF7B00975675 /* Resources */,
+				116F6F2F84950D0380EEB8A9 /* [CP] Embed Pods Frameworks */,
+				74C8B028E8F625F612884239 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,32 +209,128 @@
 			files = (
 				299CBDD1204FFF7B00975675 /* LaunchScreen.storyboard in Resources */,
 				299CBDCE204FFF7B00975675 /* Assets.xcassets in Resources */,
-				299CBDCC204FFF7B00975675 /* Main.storyboard in Resources */,
+				297BA430205143BC00D5B964 /* GoogleService-Info.plist in Resources */,
+				299CBDCC204FFF7B00975675 /* Root.storyboard in Resources */,
+				297BA42E20513EC200D5B964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116F6F2F84950D0380EEB8A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C8B028E8F625F612884239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseFacebookAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseTwitterAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfizz/Pods-Selfizz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79CCF1719928BBAB8F06D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Selfizz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		299CBDBF204FFF7B00975675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297BA434205152AC00D5B964 /* Utility.swift in Sources */,
 				29F7211E2050142800816248 /* RegisterViewController.swift in Sources */,
 				299CBDDE205000B400975675 /* SigninViewController.swift in Sources */,
 				299CBDC7204FFF7B00975675 /* AppDelegate.swift in Sources */,
+				297BA432205150F400D5B964 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		299CBDCA204FFF7B00975675 /* Main.storyboard */ = {
+		299CBDCA204FFF7B00975675 /* Root.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				299CBDCB204FFF7B00975675 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Root.storyboard;
 			sourceTree = "<group>";
 		};
 		299CBDCF204FFF7B00975675 /* LaunchScreen.storyboard */ = {
@@ -316,6 +453,7 @@
 		};
 		299CBDD6204FFF7B00975675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520F0EE1F38FB717550D283 /* Pods-Selfizz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -333,6 +471,7 @@
 		};
 		299CBDD7204FFF7B00975675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BC9EA05A414D301228B31A /* Pods-Selfizz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -407,6 +546,7 @@
 		};
 		299CBDE0205005FB00975675 /* Jenkins */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316EDF283F0F38BFF32CA08F /* Pods-Selfizz.jenkins.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

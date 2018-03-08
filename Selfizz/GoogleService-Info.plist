@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>404589424925-u440tm46qq2asrnmdgktl1nnb8lqdemu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.404589424925-u440tm46qq2asrnmdgktl1nnb8lqdemu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBj4AWOHBfbKmTXRmSu_PTIqyem_5gztqU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>404589424925</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ashokorg.Selfizz</string>
+	<key>PROJECT_ID</key>
+	<string>selfizz-491e3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>selfizz-491e3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:404589424925:ios:fe11d3ffe0990f1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://selfizz-491e3.firebaseio.com</string>
+</dict>
+</plist>
